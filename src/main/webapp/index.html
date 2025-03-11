@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h1>Formulario Usuarios</h1>
+	
+	<form action="#" method="post" onsubmit="return agregarUsuario()">
+		<label>Nombre:<input type="text" name="nombreUsuario" id="nombreUsuario" required></label>
+		<br><br>
+		<label>Fecha Nacimiento:<input type="date" name="fechaNacimiento" id="fechaNacimiento" required min="3"></label>
+		<br><br>
+		<button type="submit">Enviar</button>
+		<button type="reset">Borrar</button>
+		<br><br>
+		<button type="button" onclick="eliminarUsuario()">Eliminar usuario</button>
+	</form>
+	<br><br>
+	<table id="tabla" style="border-collapse: collapse;">
+		<tr>
+			<td>ID</td>
+			<td>NOMBRE</td>
+			<td>EDAD</td>
+			<td>TAREAS</td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="form.js"></script>
+</body>
+</html>

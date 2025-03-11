@@ -35,12 +35,6 @@ function agregarUsuario() {
 }
 
 
-function escribirUsuarios() {
-
-	
-
-}
-
 function eliminarUsuario() {
 
 	let idUsuarioABorrar = prompt("Introduzca el id del usuario a borrar",0);
